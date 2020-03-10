@@ -1,7 +1,9 @@
 --INSERÇÃO DE DADOS DML
 
+--UTILIZAR O BD
 USE Senatur_Tarde;
 
+--INSERÇÃO DE DADOS NAS TABELAS
 INSERT INTO Pacotes (NomePacote, Descricao, DataIda, DataVolta, Valor, NomeCidade)
 VALUES ('SALVADOR - 5 DIAS / 4 DIÁRIAS','O que não falta em Salvador são atrações. Prova disso são as praias, os
 museus e as construções seculares que dão um charme mais que especial à região. A

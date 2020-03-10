@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.Senatur.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Senai.InLock.WebApi.Controllers.LoginController.Post(Senai.Senatur.WebApi.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="login">Objeto login que contém o e-mail e a senha do usuário</param>
+            <returns>Retorna um token com as informações do usuário</returns>
+            <response code="201">Se o objeto for criado corretamente</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+    </members>
+</doc>
