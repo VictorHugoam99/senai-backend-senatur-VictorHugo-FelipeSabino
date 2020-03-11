@@ -16,6 +16,16 @@ namespace Senai.Senatur.WebApi.Interfaces
 
         void Atualizar(int id, Pacotes pacoteAtualizado);
 
+        List<Pacotes> ListarAtivos();
+
+        List<Pacotes> ListarInativos();
+
+        Pacotes ListarPorCidade(string cidade);
+
+        List<Pacotes> ListarValorDesc();
+
+        List<Pacotes> ListarvalorAsc();
+
 
     }
 }
