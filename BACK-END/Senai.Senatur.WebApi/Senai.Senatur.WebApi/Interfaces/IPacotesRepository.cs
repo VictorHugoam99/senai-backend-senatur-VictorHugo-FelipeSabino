@@ -20,7 +20,7 @@ namespace Senai.Senatur.WebApi.Interfaces
 
         List<Pacotes> ListarInativos();
 
-        Pacotes ListarPorCidade(string cidade);
+        IEnumerable<Pacotes> ListarPorCidade(string cidade);
 
         List<Pacotes> ListarValorDesc();
 

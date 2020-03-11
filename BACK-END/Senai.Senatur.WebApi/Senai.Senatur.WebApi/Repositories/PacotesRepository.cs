@@ -66,17 +66,17 @@ namespace Senai.Senatur.WebApi.Repositories
 
         public List<Pacotes> ListarAtivos()
         {
-            return ctx.Pacotes.Include(p => p.Ativo == true).ToList();
+            return ctx.Pacotes.ToList().FindAll(p => p.Ativo == true);
         }
 
         public List<Pacotes> ListarInativos()
         {
-            return ctx.Pacotes.Include(p => p.Ativo != true).ToList();
+            return ctx.Pacotes.ToList().FindAll(p => p.Ativo == false);
         }
 
-        public Pacotes ListarPorCidade(string cidade)
+       public IEnumerable<Pacotes> ListarPorCidade(string cidade)
         {
-            return ctx.Pacotes.FirstOrDefault(e => e.NomeCidade == cidade);
+            return ctx.Pacotes.ToList().Where(e => e.NomeCidade == cidade);
         }
 
         public List<Pacotes> ListarValorDesc()
