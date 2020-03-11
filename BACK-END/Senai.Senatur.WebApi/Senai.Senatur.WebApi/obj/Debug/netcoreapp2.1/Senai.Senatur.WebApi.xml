@@ -4,6 +4,61 @@
         <name>Senai.Senatur.WebApi</name>
     </assembly>
     <members>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.Get">
+            <summary>
+            Lista todos os pacotes
+            </summary>
+            <returns> 
+            Retorna uma lista de pacotes e um status code 200 - Ok
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetById(System.Int32)">
+            <summary>
+            Busca um pacote através do seu ID
+            </summary>
+            <param name="id">ID do pacote que será buscado</param>
+            <returns>Retorna um pacote buscado ou NotFound caso nenhum seja encontrado</returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.Post(Senai.Senatur.WebApi.Domains.Pacotes)">
+            <summary>
+            Cadastra um novo pacote
+            </summary>
+            <param name="novoPacote">Objeto novoPacote que será cadastrado</param>
+            <response code="201">Se o Pacote for cadastrado com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.Put(System.Int32,Senai.Senatur.WebApi.Domains.Pacotes)">
+            <summary>
+            Atualiza um pacote existente
+            </summary>
+            <param name="id">ID do pacote que será alterado</param>
+            <param name="pacoteAtualizado">Objeto PacoteAtualizado que será alterado</param>
+            <response code="200">Se o Pacote for atualizado com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.UsuariosController.Get">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Retorna uma lista de usuários e um status code 200 - Ok</returns>
+            dominio/api/Usuarios
+            <response code="200">Lista retornada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
         <member name="M:Senai.InLock.WebApi.Controllers.LoginController.Post(Senai.Senatur.WebApi.ViewModels.LoginViewModel)">
             <summary>
             Valida o usuário
