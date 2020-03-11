@@ -50,6 +50,35 @@ namespace Senai.Senatur.WebApi.Controllers
             return StatusCode(204);
         }
 
-        
+        [HttpGet("Ativos")]
+        public IActionResult GetAtivos()
+        {
+            return Ok(_pacotesRepository.ListarAtivos());
+        }
+
+        [HttpGet("Inativos")]
+        public IActionResult GetInativos()
+        {
+            return Ok(_pacotesRepository.ListarInativos());
+        }
+
+        [HttpGet("Cidades/{cidade}")]
+        public IActionResult GetPorCidade(string cidade)
+        {
+            return Ok(_pacotesRepository.ListarPorCidade(cidade));
+        }
+
+        [HttpGet("Desc")]
+        public IActionResult GetDesc()
+        {
+            return Ok(_pacotesRepository.ListarValorDesc());
+        }
+
+        [HttpGet("Asc")]
+        public IActionResult GetAsc()
+        {
+            return Ok(_pacotesRepository.ListarvalorAsc());
+        }
+
     }
 }

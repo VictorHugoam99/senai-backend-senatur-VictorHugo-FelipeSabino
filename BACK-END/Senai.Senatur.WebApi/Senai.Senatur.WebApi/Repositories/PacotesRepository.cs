@@ -1,4 +1,5 @@
-﻿using Senai.Senatur.WebApi.Domains;
+﻿using Microsoft.EntityFrameworkCore;
+using Senai.Senatur.WebApi.Domains;
 using Senai.Senatur.WebApi.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -62,5 +63,31 @@ namespace Senai.Senatur.WebApi.Repositories
             ctx.Pacotes.Update(pacoteBuscado);
             ctx.SaveChanges();
         }
+
+        public List<Pacotes> ListarAtivos()
+        {
+            return ctx.Pacotes.Include(p => p.Ativo == true).ToList();
+        }
+
+        public List<Pacotes> ListarInativos()
+        {
+            return ctx.Pacotes.Include(p => p.Ativo != true).ToList();
+        }
+
+        public Pacotes ListarPorCidade(string cidade)
+        {
+            return ctx.Pacotes.FirstOrDefault(e => e.NomeCidade == cidade);
+        }
+
+        public List<Pacotes> ListarValorDesc()
+        {
+            return ctx.Pacotes.OrderByDescending(p => p.Valor).ToList();
+        }
+
+        public List<Pacotes> ListarvalorAsc()
+        {
+            return ctx.Pacotes.OrderBy(p => p.Valor).ToList();
+        }
+
     }
 }

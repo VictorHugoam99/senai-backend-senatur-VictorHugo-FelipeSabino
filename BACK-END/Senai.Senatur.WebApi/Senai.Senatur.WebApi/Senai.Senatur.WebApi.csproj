@@ -19,12 +19,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
-<<<<<<< HEAD
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
-=======
->>>>>>> e698819a88126506535c6d3acb950d3896bca7e5
   </ItemGroup>
 
   <PropertyGroup>
