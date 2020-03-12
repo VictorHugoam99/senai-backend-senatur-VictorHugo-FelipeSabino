@@ -40,7 +40,7 @@ namespace Senai.Senatur.WebApi.Repositories
             {
                 pacoteBuscado.NomeCidade = pacoteAtualizado.NomeCidade ?? pacoteBuscado.NomeCidade;
             }
-            if (pacoteAtualizado.Valor != 0)
+            if (pacoteAtualizado.Valor > 0)
             {
                 pacoteBuscado.Valor = pacoteAtualizado.Valor;
             }
