@@ -45,7 +45,6 @@ C:\Users\23871167800\Desktop\PROJETO\senai-backend-senatur-VictorHugo-FelipeSabi
 C:\Users\23871167800\Desktop\PROJETO\senai-backend-senatur-VictorHugo-FelipeSabino-master\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
 C:\Users\23871167800\Desktop\PROJETO\senai-backend-senatur-VictorHugo-FelipeSabino-master\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
 >>>>>>> e698819a88126506535c6d3acb950d3896bca7e5
-<<<<<<< HEAD
 C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.deps.json
 C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.json
 C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.dev.json
@@ -62,7 +61,6 @@ C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-
 C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
 C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
 C:\Users\48417687858\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
-=======
 >>>>>>> Vitao2
 C:\Users\23871167800\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.deps.json
 C:\Users\23871167800\Desktop\senai-backend-senatur-VictorHugo-FelipeSabino\BACK-END\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.json

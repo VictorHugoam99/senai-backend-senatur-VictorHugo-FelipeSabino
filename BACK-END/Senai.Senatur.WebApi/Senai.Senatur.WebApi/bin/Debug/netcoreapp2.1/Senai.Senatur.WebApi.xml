@@ -48,6 +48,66 @@
             <response code="401">Se o usuário não estiver logado</response>
             <response code="403">Se o usuário não tiver permissão para tal ação</response>
         </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetAtivos">
+            <summary>
+            Lista todos os pacotes ativos
+            </summary>
+            <returns> 
+            Retorna uma lista de pacotes ativos e um status code 200 - Ok
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetInativos">
+            <summary>
+            Lista todos os pacotes ativos
+            </summary>
+            <returns> 
+            Retorna uma lista de pacotes ativos e um status code 200 - Ok
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetPorCidade(System.String)">
+            <summary>
+            Lista os pacotes com as cidades desejadas
+            </summary>
+            <returns> 
+            Retorna uma lista de cidades e um status code 200 - Ok
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetDesc">
+            <summary>
+            Lista todos os pacotes em ordem descrescente
+            </summary>
+            <returns> 
+            Retorna uma lista de pacotes com valor em ordem decrescente 
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetAsc">
+            <summary>
+            Lista todos os pacotes em ordem crescente
+            </summary>
+            <returns> 
+            Retorna uma lista de pacotes com valor em ordem crescente 
+            </returns>
+            <response code="200">Se a lista for acessada com sucesso</response>
+            <response code="400">Erro em alguma parte da requisição</response>
+            <response code="401">Se o usuário não estiver logado</response>
+            <response code="403">Se o usuário não tiver permissão para tal ação</response>
+        </member>
         <member name="M:Senai.Senatur.WebApi.Controllers.UsuariosController.Get">
             <summary>
             Lista todos os usuários

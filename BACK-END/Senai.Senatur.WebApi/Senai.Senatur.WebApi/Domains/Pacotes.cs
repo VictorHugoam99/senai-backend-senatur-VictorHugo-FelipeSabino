@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Senai.Senatur.WebApi.Domains
 {
@@ -10,6 +11,7 @@ namespace Senai.Senatur.WebApi.Domains
         public string Descricao { get; set; }
         public DateTime DataIda { get; set; }
         public DateTime DataVolta { get; set; }
+        [Required]
         public decimal Valor { get; set; }
         public bool? Ativo { get; set; }
         public string NomeCidade { get; set; }
