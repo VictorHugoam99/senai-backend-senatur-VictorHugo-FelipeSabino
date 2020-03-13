@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Senai.Senatur.WebApi.Domains;
 using Senai.Senatur.WebApi.Interfaces;
 using Senai.Senatur.WebApi.Repositories;
+using Senai.Senatur.WebApi.ViewModels;
 
 namespace Senai.Senatur.WebApi.Controllers
 {
@@ -104,7 +105,7 @@ namespace Senai.Senatur.WebApi.Controllers
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
 
-        public IActionResult Put (int id, Pacotes pacoteAtualizado)
+        public IActionResult Put (int id, PacotesViewModel pacoteAtualizado)
         {
             _pacotesRepository.Atualizar(id, pacoteAtualizado);
             return StatusCode(204);

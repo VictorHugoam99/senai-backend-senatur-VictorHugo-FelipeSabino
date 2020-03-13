@@ -1,4 +1,5 @@
 ﻿using Senai.Senatur.WebApi.Domains;
+using Senai.Senatur.WebApi.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace Senai.Senatur.WebApi.Interfaces
 
         void Cadastrar(Pacotes novoPacote);
 
-        void Atualizar(int id, Pacotes pacoteAtualizado);
+        void Atualizar(int id, PacotesViewModel pacoteAtualizado);
 
         List<Pacotes> ListarAtivos();
 

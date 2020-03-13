@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Senai.Senatur.WebApi.Domains;
 using Senai.Senatur.WebApi.Interfaces;
+using Senai.Senatur.WebApi.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,7 @@ namespace Senai.Senatur.WebApi.Repositories
             ctx.SaveChanges();
         }
 
-        public void Atualizar(int id, Pacotes pacoteAtualizado)
+        public void Atualizar(int id, PacotesViewModel pacoteAtualizado)
         {
             Pacotes pacoteBuscado = ctx.Pacotes.Find(id);
 
